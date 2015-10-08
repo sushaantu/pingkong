@@ -2,12 +2,34 @@
 
 <style>
 body {
-	background: #fff;
-	color: #111;
+	background: #FAFAFB;
 }
 
 .navbar-default {
-	background: -webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-webkit-linear-gradient(108deg,#26d0ce,#1a2980 90%); 
+	background: #FAFAFB;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #5D6D81;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #111;
+}
+
+.navbar-brand span {
+  background: url(../img/logo-dark.png) no-repeat;
+  display: inline-block;
+  width: 106px;
+  height: 43px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #5D6D81;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: rgba(0, 0, 0, 0.13);
 }
 </style>
 
@@ -16,7 +38,7 @@ body {
 		<div class="col-md-3" id="leftCol">
 			<div class="well"> 
       	<ul class="nav nav-stacked" id="sidebar">
-          <li><a href="#sec1">Installation</a></li>
+          <li><a href="#sec1">Getting Started</a></li>
           <li><a href="#sec2">Section 2</a></li>
           <li><a href="#sec3">Section 3</a></li>
           <li><a href="#sec4">Section 4</a></li>
@@ -25,7 +47,7 @@ body {
 		</div>  
 
 		<div class="col-md-9">
-    	<h2 id="sec0">Installation</h2>
+    	<h2 id="sec0">Getting Started</h2>
       At Bootply we like to build simple Bootstrap templates that utilize the code Bootstap CSS without a lot of customization. Sure you can 
     	find a lot of Bootstrap themes and inspiration, but these templates tend to be heavy on customization.
     	

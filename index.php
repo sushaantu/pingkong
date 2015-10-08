@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="text-center">
-          <h1>Website monitoring <em>for</em> sysadmins</h1>
+          <h1>Website monitoring <em class="for">for</em> sysadmins</h1>
         </div>
       </div>
     </div>
@@ -14,8 +14,8 @@
     <br>
 
     <div class="row">
-      <div class="col-md-3"></div>
-      <div class="col-md-6">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
         <div id="terminal">
           <div class="terminal-header">
             <div class="t-buttons">
@@ -33,7 +33,7 @@
           
         </div>
       </div>
-      <div class="col-md-3"></div>
+      <div class="col-md-2"></div>
     </div>
   </div>  
 </div>

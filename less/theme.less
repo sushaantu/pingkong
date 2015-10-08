@@ -244,10 +244,10 @@
 // --------------------------------------------------
 
 .well {
-  #gradient > .vertical(@start-color: darken(@well-bg, 5%); @end-color: @well-bg);
   border-color: darken(@well-bg, 10%);
-  @shadow: inset 0 1px 3px rgba(0,0,0,.05), 0 1px 0 rgba(255,255,255,.1);
-  .box-shadow(@shadow);
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
 }
 
 
@@ -261,13 +261,17 @@ html, body {
 }
 
 body {
-  min-height: 100%; 
-  //background-image: -webkit-linear-gradient(#3023AE 50%, #C86DD7 100%);
+  min-height: 100%;  
+  background: #145791;
+  background: -webkit-linear-gradient(top, #56C9CE 100%, #145791 100%);
+  background: radial-gradient(ellipse farthest-side at 100% 100%, #56C9CE 10%, #145791 100%);
+}
 
-  background: -webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-webkit-linear-gradient(108deg,#26d0ce,#1a2980 90%);        
-  //background: -webkit-linear-gradient(90deg, #005C97 10%, #363795 90%); /* Chrome 10+, Saf5.1+ */
-  //background: -webkit-linear-gradient(90deg, #C04848 10%, #480048 90%); /* Chrome 10+, Saf5.1+ */  
-        
+.navbar-brand span {
+  background: url(../img/logo.png) no-repeat;
+  display: inline-block;
+  width: 106px;
+  height: 43px;
 }
 
 #jold-it:before {
@@ -287,6 +291,7 @@ body {
 
 #hanuman {
   padding-top: 50px;
+  color: #fff;
 }
 
 .navbar-nav {
@@ -351,10 +356,9 @@ body {
   font-family: @font-family-monospace;
 }
 
-
-
-
-
-
-
-
+.for {
+  font-family: Garamond;
+  min-width: 50px;
+  display: inline-block;
+  padding: 8px 0px;
+}
