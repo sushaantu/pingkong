@@ -38,6 +38,14 @@
   </div>  
 </div>
 
+<div class="home-content">
+  <div class="container">
+    <div class="row">
+     <h4>Example heading <span class="label label-default">New</span></h4>
+    </div>
+  </div>
+</div>
+
 
 
 

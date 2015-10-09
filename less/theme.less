@@ -244,10 +244,11 @@
 // --------------------------------------------------
 
 .well {
-  border-color: darken(@well-bg, 10%);
   padding: 0;
   border-radius: 0;
   background: transparent;
+  box-shadow: none;
+  border: none;
 }
 
 
@@ -361,4 +362,36 @@ body {
   min-width: 50px;
   display: inline-block;
   padding: 8px 0px;
+}
+
+.docs-container {
+  background-color: #FAFAFB;
+  padding-top: 20px;
+}
+
+.docs-container .nav-stacked > li + li {
+  margin-top: 0;
+}
+
+.docs-container .nav-stacked > li > a:hover, .docs-container .nav-stacked > li > a:focus {
+  text-decoration: none;
+  background-color: #56C9CE;
+  color: #fff;
+}
+
+.docs-container .docs-content{
+  background: #fff;
+  border-radius: @border-radius-base;
+}
+
+.home-content {
+  background: #fff;
+  height: 500px;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.label-default {
+  background: radial-gradient(ellipse farthest-side at 100% 100%, #53CBD0 10%, rgb(29, 135, 226) 100%);
+  font-style: italic;
 }
