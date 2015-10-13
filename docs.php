@@ -54,8 +54,7 @@ body {
 
 			<div class="col-md-9 docs-content">
 	    	<h2 id="sec0">Getting Started</h2>
-	      At Bootply we like to build simple Bootstrap templates that utilize the code Bootstap CSS without a lot of customization. Sure you can 
-	    	find a lot of Bootstrap themes and inspiration, but these templates tend to be heavy on customization.
+				Install gcloud
 	    	
 	  
 	 
