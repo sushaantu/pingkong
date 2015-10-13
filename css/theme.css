@@ -624,3 +624,6 @@ body {
   background: radial-gradient(ellipse farthest-side at 100% 100%, #6461df 10%, #3154ff 100%);
   font-style: italic;
 }
+.tab-content > .tab-pane {
+  margin-top: 15px;
+}

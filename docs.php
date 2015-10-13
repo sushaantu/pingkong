@@ -53,30 +53,35 @@ body {
 			</div>  
 
 			<div class="col-md-9 docs-content">
-	    	<h2 id="sec0">Getting Started</h2>
-				Install gcloud
-	    	
-	  
-	 
+	    	<h2 id="sec0">Getting Started</h2>	
+				<div>
+				  <!-- Nav tabs -->
+				  <ul class="nav nav-tabs" role="tablist">
+				    <li role="presentation" class="active"><a href="#linux-osx" aria-controls="linux-osx" role="tab" data-toggle="tab">Linux/Mac OSX</a></li>
+				    <li role="presentation"><a href="#debian-ubuntu" aria-controls="debian-ubuntu" role="tab" data-toggle="tab">Debian/Ubuntu</a></li>
+				  </ul>
+
+				  <!-- Tab panes -->
+				  <div class="tab-content">
+				    <div role="tabpanel" class="tab-pane active" id="linux-osx">
+				    	<p>Install pingkong, by running the following command in your shell or Terminal:</p>
+							<pre><code>curl https://cli.pingkong.io | bash</code></pre>
+				    </div>
+				    <div role="tabpanel" class="tab-pane" id="debian-ubuntu">...</div>
+				  </div>
+				</div>
+
+
 	    	<hr>
-	    	Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
-	      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
-	      eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-	      sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
-	      Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut.              
-	    	Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
-	      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
-	      eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-	      sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
-	      Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut!
-	    	
-	    
-	    
 	    	<h2 id="sec1">Create Account</h2>
-	    	<p>
-	      Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
-	      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut.
-	    	</p>
+	    	<p>Run <code>pingkong init</code> to start the authentication process. Hit enter when prompted.</p>
+	    	<pre><code>$ pingkong init<br>Welcome! This command will take you through the configuration of pingkong.
+						<br>Your current configuration has been set to: [default]
+						<br>To continue, you must login. Would you like to login (Y/n)?  y
+						<br>Your browser has been opened to visit:
+						<br>https://accounts.google.com/o/oauth2/auth?scope=https%3A%2F%2Fwww.googleapis.co%2Fauth%2Fappengine.admin+https%3A%2F%2...
+					</code>
+	    	</pre>
 	    	<div class="row">
 	        <div class="col-md-6">
 	          <div class="panel panel-default">
