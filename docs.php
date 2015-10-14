@@ -82,28 +82,7 @@ body {
 						<br>https://accounts.google.com/o/oauth2/auth?scope=https%3A%2F%2Fwww.googleapis.co%2Fauth%2Fappengine.admin+https%3A%2F%2...
 					</code>
 	    	</pre>
-	    	<div class="row">
-	        <div class="col-md-6">
-	          <div class="panel panel-default">
-	            <div class="panel-heading"><h3>Hello.</h3></div>
-	            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-	            Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
-	            dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
-	            Aliquam in felis sit amet augue.
-	            </div>
-	          </div>
-	        </div>
-	        <div class="col-md-6">
-	            <div class="panel panel-default">
-	            <div class="panel-heading"><h3>Hello.</h3></div>
-	            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-	            Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
-	            dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
-	            Aliquam in felis sit amet augue.
-	            </div>
-	          </div>
-	        </div>  
-	    	</div>
+	    	
 	    
 	    	<hr>
 	    
@@ -115,11 +94,6 @@ body {
 	      sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
 	      Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut!
 	    	</p>
-	    	<div class="row">
-	    		<div class="col-md-4"><img src="//placehold.it/300x300" class="img-responsive"></div>
-	        	<div class="col-md-4"><img src="//placehold.it/300x300" class="img-responsive"></div>
-	        	<div class="col-md-4"><img src="//placehold.it/300x300" class="img-responsive"></div>
-	    	</div>
 	    
 	    	<hr>
 	    

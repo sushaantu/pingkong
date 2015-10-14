@@ -540,7 +540,7 @@ body {
 .navbar-nav {
   padding-top: 24px;
 }
-#terminal {
+.terminal {
   width: 100%;
   height: 400px;
   background: #000;
@@ -591,6 +591,9 @@ body {
   padding: 10px 0 10px 10px;
   font-family: Consolas, Menlo, Monaco, "Courier New", monospace;
 }
+.prompt p {
+  margin-bottom: 0;
+}
 .for {
   font-family: Garamond;
   min-width: 50px;
@@ -609,6 +612,7 @@ body {
   text-decoration: none;
   background-color: #56C9CE;
   color: #fff;
+  border-radius: 3px;
 }
 .docs-container .docs-content {
   background: #fff;
@@ -626,4 +630,37 @@ body {
 }
 .tab-content > .tab-pane {
   margin-top: 15px;
+}
+/* Animations */
+h1.whatwedo {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 2s;
+}
+.navbar-right {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 2.5s;
+}
+.terminal {
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: .2s;
+}
+.terminal-header {
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: .2s;
+}
+.t-close {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1.1s;
+}
+.t-minimize {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1.2s;
+}
+.t-maximize {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1.3s;
+}
+.t-title {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1.4s;
 }
