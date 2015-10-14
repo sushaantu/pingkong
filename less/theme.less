@@ -423,16 +423,20 @@ body {
 }
 
 #sidebar.nav > li > a:hover, #sidebar.nav > li > a:focus {
-  border: 0 #eee solid !important;
-  border-right-width: 5px !important;
+  border-right: 5px #eee solid;
   background-color: transparent;
 }
 
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+}
 
 /* Animations */
 h1.whatwedo {
   -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 2s;
+  -webkit-animation-delay: 1.8s;
 }
 
 .navbar-right {
