@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="text-center">
-          <h1 class="whatwedo animated fadeIn">Website monitoring <em class="for">for</em> sysadmins</h1>
+          <h1 class="whatwedo animated fadeIn">Active website monitoring <em class="for">for</em> sysadmins</h1>
         </div>
       </div>
     </div>
