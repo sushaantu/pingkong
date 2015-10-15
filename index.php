@@ -16,18 +16,18 @@
     <div class="row">
       <div class="col-md-2"></div>
       <div class="col-md-8">
-        <div class="terminal animated fadeIn">
-          <div class="terminal-header animated fadeIn">
+        <div class="terminal">
+          <div class="terminal-header">
             <div class="t-buttons">
-              <button class="t-close animated fadeIn"></button>
-              <button class="t-minimize animated fadeIn"></button>
-              <button class="t-maximize animated fadeIn"></button>
+              <button class="t-close"></button>
+              <button class="t-minimize"></button>
+              <button class="t-maximize"></button>
             </div>
-            <span class="t-title animated fadeIn">1. pingkong</span>
           </div>
-          <main class="prompt animated fadeIn">
-            <p>$ pingkong myonlinestore.com</p>
-            <p>It's so crowded, nobody comes here anymore</p>
+          <main class="prompt">
+            <p class="console">
+              <span>$</span><span id="caption"></span><span id="cursor">|</span>
+            </p>
           </main>
           
         </div>

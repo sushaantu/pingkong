@@ -1416,7 +1416,7 @@
 		"createSourceMap": 0,
 		"disableJavascript": 0,
 		"fileType": 1,
-		"ieCompatibility": 1,
+		"ieCompatibility": 0,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/less\/theme.less",
