@@ -268,6 +268,54 @@ body {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(23, 33, 158, 0.75)), color-stop(100%, rgba(17, 2, 49, 0))), -webkit-gradient(linear, 0% 100%, 100% 0%, color-stop(0%, rgba(105, 19, 121, 0.78)), color-stop(12.5%, #f67cb7), color-stop(25%, #f99797), color-stop(37.5%, #f1b79f), color-stop(50%, #e1a7b7), color-stop(62.5%, #c3bcb0), color-stop(75%, #8aaab2), color-stop(87.5%, #1693ca), color-stop(100%, #253eb6));
 }
 
+/* Animations */
+h1.whatwedo {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 4s;
+}
+
+.css-typing {
+  width: 30em;
+  white-space:nowrap;
+  overflow:hidden;
+  -webkit-animation: type 5s steps(50, end);
+  animation: type 5s steps(50, end);
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+/* Now start normal styles */
+
 .navbar-brand span {
   background: url(../img/logo.png) no-repeat;
   display: inline-block;
@@ -347,11 +395,13 @@ body:before {
   color: #55ff55;
   padding: 10px 0 10px 10px;
   font-family: @font-family-monospace;
+  user-select: none;
+  cursor: default;
 }
 
 .prompt p {
   margin-bottom: 0;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .for {
@@ -425,58 +475,12 @@ body:before {
   border-radius: 50px;
 }
 
-/* Animations */
-h1.whatwedo {
-  -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 4s;
+.sparkline {
+  display: none;
 }
 
-.css-typing {
-  width: 30em;
-  white-space:nowrap;
-  overflow:hidden;
-  -webkit-animation: type 5s steps(50, end);
-  animation: type 5s steps(50, end);
-}
-
-@keyframes type {
-  from { width: 0; }
-}
-
-@-webkit-keyframes type {
-  from { width: 0; }
-}
-
-.animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
+.grapher {
+  margin-top: 5px;
 }
 
 
