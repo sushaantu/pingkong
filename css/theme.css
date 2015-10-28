@@ -664,9 +664,9 @@ body:before {
   background: #fff;
   border-radius: 3px;
 }
-.home-content {
-  background: #FAFAFB;
-  padding: 60px 0;
+.features {
+  background: #FFF;
+  padding: 50px 0;
 }
 .label-default {
   background: radial-gradient(ellipse farthest-side at 100% 100%, #6461DF 10%, #3154FF 100%);

@@ -57,7 +57,7 @@
   </div>
 </div>
 
-<div class="home-content">
+<div class="features">
   <div class="container">
     <div class="row">
       <div class="col-md-3">
