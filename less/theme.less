@@ -263,15 +263,19 @@ html, body {
 
 body {
   min-height: 100%;
+}
+
+#gradient {
   background: #145791;
   background: radial-gradient(ellipse farthest-side at 100% 100%, #56C9CE 10%, #145791 100%);
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(23, 33, 158, 0.75)), color-stop(100%, rgba(17, 2, 49, 0))), -webkit-gradient(linear, 0% 100%, 100% 0%, color-stop(0%, rgba(105, 19, 121, 0.78)), color-stop(12.5%, #f67cb7), color-stop(25%, #f99797), color-stop(37.5%, #f1b79f), color-stop(50%, #e1a7b7), color-stop(62.5%, #c3bcb0), color-stop(75%, #8aaab2), color-stop(87.5%, #1693ca), color-stop(100%, #253eb6));
+  padding-bottom: 50px;
 }
 
 /* Animations */
 h1.whatwedo {
   -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 4s;
+  -webkit-animation-delay: 1s;
 }
 
 .css-typing {
@@ -323,7 +327,7 @@ h1.whatwedo {
   height: 43px;
 }
 
-/*
+
 body:before {
   content: "1 \a 2 \a 3 \a 4 \a 5 \a 6 \a 7 \a 8 \a 9 \a 10 \a 11 \a 12 \a 13 \a 14 \a 15 \a 16 \a 17 \a 18 \a 19 \a 20 \a 21 \a 22 \a 23 \a 24 \a 25 \a 26 \a 27 \a 28 \a 29 \a 30 \a 31 \a 32 \a 33 \a 34 \a 35 \a 36 \a 37 \a 38 \a 39 \a 40 \a 41 \a 42 \a 43 \a 44 \a 45 \a 46 \a 47 \a 48 \a 49 \a 50 \a";
   display: inline-block;  
@@ -334,7 +338,7 @@ body:before {
   padding-left: 6px;
   font-family: @font-family-monospace;
 }
-*/
+
 
 #jold-it-docs {
   min-height: 100%; 
@@ -426,10 +430,8 @@ body:before {
 }
 
 .home-content {
-  background: #fff;
-  height: 500px;
-  margin-top: 50px;
-  padding-top: 50px;
+  background: #FAFAFB;
+  padding: 60px 0;
 }
 
 .label-default {
@@ -484,9 +486,40 @@ body:before {
   font-family: Arial, sans-serif;
 }
 
+.cta {
+  background: #fff;
+  padding: 50px 0;
+}
+
+.cta pre {
+  padding: 15px 10px;
+  font-size: 15px;
+}
+
+pre.ascii-logo {
+  font: 6px/3px monospace;
+  background: transparent;
+  border: none;
+  background: #145791;
+  background: radial-gradient(ellipse farthest-side at 100% 100%, #56C9CE 10%, #145791 100%);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(23, 33, 158, 0.75)), color-stop(100%, rgba(17, 2, 49, 0))), -webkit-gradient(linear, 0% 100%, 100% 0%, color-stop(0%, rgba(105, 19, 121, 0.78)), color-stop(12.5%, #f67cb7), color-stop(25%, #f99797), color-stop(37.5%, #f1b79f), color-stop(50%, #e1a7b7), color-stop(62.5%, #c3bcb0), color-stop(75%, #8aaab2), color-stop(87.5%, #1693ca), color-stop(100%, #253eb6));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  right: 10px;
+  bottom: -88px;
+}
 
 
+pre.ascii-logo:hover {
+  bottom: -40px;
+}
 
-
+footer {
+  background: #FAFAFB;
+  padding: 60px 0;
+  position: relative;
+  overflow: hidden;
+}
 
 
