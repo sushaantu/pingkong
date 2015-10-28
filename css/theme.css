@@ -666,7 +666,7 @@ body:before {
 }
 .features {
   background: #FFF;
-  padding: 50px 0;
+  padding: 50px 0 80px 0;
 }
 .label-default {
   background: radial-gradient(ellipse farthest-side at 100% 100%, #6461DF 10%, #3154FF 100%);
@@ -715,7 +715,7 @@ body:before {
 }
 .cta {
   background: #fff;
-  padding: 50px 0;
+  padding: 40px 0;
 }
 .cta pre {
   padding: 15px 10px;
@@ -732,7 +732,7 @@ pre.ascii-logo {
   -webkit-text-fill-color: transparent;
   position: absolute;
   right: 10px;
-  bottom: -88px;
+  bottom: -138px;
   -webkit-user-select: none;
   cursor: default;
 }
@@ -741,7 +741,7 @@ pre.ascii-logo:hover {
 }
 footer {
   background: #FAFAFB;
-  padding: 60px 0;
+  padding: 80px 0 60px 0;
   position: relative;
   overflow: hidden;
 }

@@ -207,8 +207,7 @@ body {
 	      Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut!
 	    	</p>
 
-	    
-	    	<hr>
+
 	  	
 	  	
 			</div> 
