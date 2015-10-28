@@ -50,7 +50,7 @@
         </div>
         <pre><code>curl https://cli.pingkong.io | bash</code></pre>
         <div class="clearfix">
-          <p class="pull-right"><a href="">Refer documentation</a></p>
+          <p class="pull-right"><a href="/docs.php">Refer documentation</a></p>
         </div>
       </div>
     </div>
