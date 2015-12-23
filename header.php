@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Ping Kong</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico?1">
+    <link rel="icon" href="img/favicon.ico?1" type="image/x-icon">
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
