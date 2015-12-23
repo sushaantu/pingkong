@@ -76,7 +76,7 @@
     <div class="row">
       <div class="col-md-4 col-md-offset-4">
         <a href="/signup.php" class="btn btn-lg btn-primary btn-block">Try now!</a>
-        <h6 class="text-muted text-center">30 day Free Trial</h6>
+        <h6 class="text-muted text-center">30 day Free Trial. No Credit Card required.</h6>
       </div>
     </div>
 
@@ -84,7 +84,7 @@
 </div>
 </div><!-- end of #gradient -->
 
-
+<!--
 <div class="features">
   <div class="container">
     <div class="row">
@@ -107,5 +107,6 @@
     </div>
   </div>
 </div>
+-->
 
 <?php include 'footer.php';?>

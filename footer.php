@@ -4,7 +4,6 @@
       	<li><a href="">Status</a></li>
       	<li><a href="">Blog</a></li>
       	<li><a href="">About</a></li>
-      	<li><a href="">Jobs</a></li>
       	<li><a href="">Contact</a></li>
       	<li><a href="">Privacy &amp; Terms</a></li>
       </ul>
