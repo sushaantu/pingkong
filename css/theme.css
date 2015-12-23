@@ -485,18 +485,7 @@ body {
 }
 body {
   min-height: 100%;
-}
-/* */
-/* */
-/* */
-/* Gradient */
-/* */
-/* */
-/* */
-#gradient {
-  background: #145791;
-  background: radial-gradient(ellipse farthest-side at 100% 100%, #56C9CE 10%, #145791 100%);
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(23, 33, 158, 0.75)), color-stop(100%, rgba(17, 2, 49, 0))), -webkit-gradient(linear, 0% 100%, 100% 0%, color-stop(0%, rgba(105, 19, 121, 0.78)), color-stop(12.5%, #f67cb7), color-stop(25%, #f99797), color-stop(37.5%, #f1b79f), color-stop(50%, #e1a7b7), color-stop(62.5%, #c3bcb0), color-stop(75%, #8aaab2), color-stop(87.5%, #1693ca), color-stop(100%, #253eb6));
+  background: #FAFAFB;
 }
 /* */
 /* */
@@ -549,11 +538,38 @@ h1.whatwedo {
 /* */
 /* */
 /* */
+.navbar {
+  margin-bottom: 0;
+}
+.navbar-nav {
+  padding-top: 24px;
+}
+.navbar-default {
+  background: #FAFAFB;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #5D6D81;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #5D6D81;
+}
 .navbar-brand span {
-  background: url(../img/logo.png) no-repeat;
+  background: url(../img/logo-dark.png) no-repeat;
   display: inline-block;
   width: 106px;
   height: 43px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #5D6D81;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: rgba(0, 0, 0, 0.13);
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background-color: rgba(62, 62, 62, 0.1);
+  border-radius: 50px;
 }
 /*
 body:before {
@@ -574,9 +590,6 @@ body:before {
 #hanuman {
   padding: 50px 0;
   color: #fff;
-}
-.navbar-nav {
-  padding-top: 24px;
 }
 .terminal {
   width: 100%;
@@ -682,12 +695,6 @@ body:before {
   border-right: 5px #eee solid;
   background-color: transparent;
 }
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50px;
-}
 .sparkline {
   display: none;
 }
@@ -696,7 +703,6 @@ body:before {
   font-family: Arial, sans-serif;
 }
 .cta {
-  background: #fff;
   padding: 40px 0;
 }
 .cta pre {

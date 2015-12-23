@@ -1,5 +1,37 @@
 <?php include 'header.php';?>
 
+<style>
+#gradient {
+  background: #145791;
+  background: radial-gradient(ellipse farthest-side at 100% 100%, #56C9CE 10%, #145791 100%);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(23, 33, 158, 0.75)), color-stop(100%, rgba(17, 2, 49, 0))), -webkit-gradient(linear, 0% 100%, 100% 0%, color-stop(0%, rgba(105, 19, 121, 0.78)), color-stop(12.5%, #f67cb7), color-stop(25%, #f99797), color-stop(37.5%, #f1b79f), color-stop(50%, #e1a7b7), color-stop(62.5%, #c3bcb0), color-stop(75%, #8aaab2), color-stop(87.5%, #1693ca), color-stop(100%, #253eb6));
+}
+
+.navbar-brand span {
+  background: url(../img/logo.png) no-repeat;
+  display: inline-block;
+  width: 106px;
+  height: 43px;
+}
+
+.navbar-default {
+  background: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+}
+</style>
+
 
 <div id="hanuman">
   <div class="container">
@@ -41,21 +73,6 @@
 </div>
 </div><!-- end of #gradient -->
 
-<div class="cta">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-        <div class="clearfix">
-          <p class="pull-left">Get started now</p>
-        </div>
-        <pre><code>curl https://cli.pingkong.io | bash</code></pre>
-        <div class="clearfix">
-          <p class="pull-right"><a href="/docs.php">Refer documentation</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div class="features">
   <div class="container">
