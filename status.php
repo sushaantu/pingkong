@@ -184,7 +184,7 @@
       <hr>
 
       <footer class="footer">
-        <p class="text-center"><img src="/img/gorilla-thin.png" alt="" width="24"></p>
+        <p class="text-center"><a href="http://pingkong.io"><img src="/img/gorilla-thin.png" alt="" width="24"></a></p>
       </footer>
 
     </div> <!-- /container -->
