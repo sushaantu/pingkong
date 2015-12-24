@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Narrow Jumbotron Template for Bootstrap</title>
+    <title>Status</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -25,7 +25,7 @@
 
       /* Everything but the jumbotron gets side spacing for mobile first views */
       .header,
-      .marketing,
+      .status-holder,
       .footer {
         padding-right: 15px;
         padding-left: 15px;
@@ -34,7 +34,6 @@
       /* Custom page header */
       .header {
         padding-bottom: 20px;
-        border-bottom: 1px solid #e5e5e5;
       }
       /* Make the masthead heading the same height as the navigation */
       .header h3 {
@@ -45,9 +44,8 @@
 
       /* Custom page footer */
       .footer {
-        padding-top: 19px;
+        padding-top: 10px;
         color: #777;
-        border-top: 1px solid #e5e5e5;
       }
 
       /* Customize container */
@@ -60,29 +58,26 @@
         margin: 30px 0;
       }
 
-      /* Main marketing message and sign up button */
-      .jumbotron {
-        text-align: center;
-        border-bottom: 1px solid #e5e5e5;
-      }
-      .jumbotron .btn {
-        padding: 14px 24px;
-        font-size: 21px;
-      }
-
-      /* Supporting marketing content */
-      .marketing {
+      /* Supporting .status-holder content */
+      .status-holder {
         margin: 40px 0;
       }
-      .marketing p + h4 {
+      .status-holder p + h4 {
         margin-top: 28px;
+      }
+
+      /* Sexy fading <hr> */
+      hr {
+        border: 0;
+        height: 1px;
+        background-image: -webkit-linear-gradient(left, #FBFBFB, #eee, #FBFBFB);
       }
 
       /* Responsive: Portrait tablets and up */
       @media screen and (min-width: 768px) {
         /* Remove the padding we set earlier */
         .header,
-        .marketing,
+        .status-holder,
         .footer {
           padding-right: 0;
           padding-left: 0;
@@ -108,39 +103,60 @@
   <body>
 
     <div class="container">
-
-      <div class="jumbotron">
-        <h1>Jumbotron heading</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
-      </div>
-
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-        </div>
-
-        <div class="col-lg-6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+      
+      <div class="header clearfix">
+        <div class="col-md-12">
+          <img src="/img/logo-dark.png" alt="">
         </div>
       </div>
+
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="alert alert-success" role="alert">All systems operational</div>
+          <div class="alert alert-warning" role="alert">Some systems have problem</div>
+          <div class="alert alert-danger" role="alert">All systems down</div>
+        </div>
+      </div>
+
+      <div class="row status-holder">
+          <table class="table table-striped"> 
+            <thead> 
+              <tr> 
+                <th>Name</th> 
+                <th>Dec 17</th> 
+                <th>Dec 18</th> 
+                <th>Dec 19</th> 
+                <th>Dec 20</th> 
+                <th>Dec 21</th> 
+                <th>Dec 22</th> 
+                <th>Dec 23</th> 
+              </tr> 
+            </thead>
+            <tbody> 
+              <tr> 
+                <td>uxready.com</td> 
+                <td>Otto</td> 
+                <td>@mdo</td> 
+              </tr> 
+              <tr> 
+                <td>google.com</td> 
+                <td>Thornton</td> 
+                <td>@fat</td> 
+              </tr> 
+              <tr> 
+                <td>facebook.com</td> 
+                <td>the Bird</td> 
+                <td>@twitter</td> 
+              </tr> 
+            </tbody> 
+          </table>
+      </div>
+      
+      <hr>
 
       <footer class="footer">
-        <p class="text-center"><img src="/img/pingkong" alt=""></p>
+        <p class="text-center"><img src="/img/gorilla-thin.png" alt="" width="24"></p>
       </footer>
 
     </div> <!-- /container -->
