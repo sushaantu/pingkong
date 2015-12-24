@@ -2,7 +2,7 @@
     <div class="container">
       <ul class="list-inline text-muted">
       	<li><a href="">Status</a></li>
-      	<li><a href="">Blog</a></li>
+      	<li><a href="/blog">Blog</a></li>
       	<li><a href="">About</a></li>
       	<li><a href="">Contact</a></li>
       	<li><a href="">Privacy &amp; Terms</a></li>
