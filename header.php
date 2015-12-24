@@ -39,7 +39,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="/docs.php">Documentation</a></li>
             <li><a href="">Pricing</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="">Blog</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
