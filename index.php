@@ -79,7 +79,7 @@
 
     <div class="row">
       <div class="col-md-4 col-md-offset-4">
-        <a href="/signup.php" class="btn btn-lg btn-primary btn-block">Try now!</a>
+        <a href="/signup" class="btn btn-lg btn-primary btn-block">Try now!</a>
         <h6 class="text-muted text-center">30 day Free Trial. No Credit Card required.</h6>
       </div>
     </div>

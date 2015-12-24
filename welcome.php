@@ -23,7 +23,7 @@
             </div>
             <pre><code>curl https://pingkong.io/cli | bash</code></pre>
             <div class="clearfix">
-              <p class="pull-right"><a href="/docs.php">Refer documentation</a></p>
+              <p class="pull-right"><a href="/docs">Refer documentation</a></p>
             </div>
           </div>
         </div>
