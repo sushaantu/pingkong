@@ -776,12 +776,12 @@ footer {
   border-top-right-radius: 0;
 }
 .btn-github {
-  background: url(../img/octocat-dark.png) no-repeat;
-  background-position: 52px 5px;
+  background: url('../img/octocat.png') no-repeat top left;
+  background-position: 50px 5px;
   background-size: 36px;
 }
 .btn-github:hover {
-  background: url(../img/octocat.png) no-repeat;
-  background-position: 52px 5px;
+  background: url('../img/octocat.png') no-repeat top left;
+  background-position: 50px -36px;
   background-size: 36px;
 }
