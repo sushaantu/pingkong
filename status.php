@@ -14,6 +14,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" >
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" >
 
     <!-- Custom styles for this template -->
     <style>
@@ -71,6 +72,18 @@
         border: 0;
         height: 1px;
         background-image: -webkit-linear-gradient(left, #FBFBFB, #eee, #FBFBFB);
+      }
+
+      tr > td:not(:first-child) {
+        text-align: center;
+      }
+
+      .fa-check-circle {
+        color: #4CAF50;
+      }
+
+      .fa-exclamation-circle {
+        color: #FF9800;
       }
 
       /* Responsive: Portrait tablets and up */
@@ -136,18 +149,33 @@
             <tbody> 
               <tr> 
                 <td>uxready.com</td> 
-                <td>Otto</td> 
-                <td>@mdo</td> 
+                <td><i class="fa fa-lg fa-check-circle"></i></td> 
+                <td><i class="fa fa-lg fa-check-circle"></i></td> 
+                <td><i class="fa fa-lg fa-check-circle"></i></td> 
+                <td><i class="fa fa-lg fa-check-circle"></i></td> 
+                <td><i class="fa fa-lg fa-check-circle"></i></td> 
+                <td><i class="fa fa-lg fa-check-circle"></i></td> 
+                <td><i class="fa fa-lg fa-check-circle"></i></td> 
               </tr> 
               <tr> 
                 <td>google.com</td> 
-                <td>Thornton</td> 
-                <td>@fat</td> 
+                <td><i class="fa fa-lg fa-check-circle"></i></td> 
+                <td><i class="fa fa-lg fa-check-circle"></i></td> 
+                <td><i class="fa fa-lg fa-check-circle"></i></td> 
+                <td><i class="fa fa-lg fa-exclamation-circle" data-toggle="tooltip" data-placement="top" title="Downtime: 3 minutes"></i></td> 
+                <td><i class="fa fa-lg fa-check-circle"></i></td> 
+                <td><i class="fa fa-lg fa-check-circle"></i></td> 
+                <td><i class="fa fa-lg fa-check-circle"></i></td> 
               </tr> 
               <tr> 
                 <td>facebook.com</td> 
-                <td>the Bird</td> 
-                <td>@twitter</td> 
+                <td><i class="fa fa-lg fa-check-circle"></i></td> 
+                <td><i class="fa fa-lg fa-check-circle"></i></td> 
+                <td><i class="fa fa-lg fa-check-circle"></i></td> 
+                <td><i class="fa fa-lg fa-check-circle"></i></td> 
+                <td><i class="fa fa-lg fa-check-circle"></i></td> 
+                <td><i class="fa fa-lg fa-check-circle"></i></td> 
+                <td><i class="fa fa-lg fa-check-circle"></i></td> 
               </tr> 
             </tbody> 
           </table>
@@ -162,7 +190,15 @@
     </div> <!-- /container -->
 
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+
+    </script>
   </body>
 </html>
