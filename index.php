@@ -30,6 +30,10 @@
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50px;
 }
+
+#gradient .text-muted {
+  color: rgba(255, 255, 255, 0.8);
+}
 </style>
 
 

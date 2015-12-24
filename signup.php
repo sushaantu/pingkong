@@ -11,7 +11,7 @@
 	<div class="container">
 
 	  <form class="form-signin">
-			<button type="button" class="btn btn-lg btn-default btn-block">Register with Github</button>
+			<button type="button" class="btn btn-lg btn-default btn-block btn-github">Register with Github</button>
 			<hr>
 			<p class="text-muted">or Register with email</p>
 	    <label for="inputEmail" class="sr-only">Email address</label>
