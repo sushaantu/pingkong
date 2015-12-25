@@ -587,7 +587,7 @@ h1.whatwedo {
   height: 43px;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #5D6D81;
+  background-color: #fff;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
