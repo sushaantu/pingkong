@@ -88,29 +88,44 @@
 </div>
 </div><!-- end of #gradient -->
 
-<!--
-<div class="features">
+
+<div id="timeline-container">
   <div class="container">
     <div class="row">
-      <div class="col-md-3">
-        <h4><i class="fa fa-fighter-jet"></i> Fast Checks</h4>
-        <p>Choose the check interval that suits you</p>
-      </div>
-      <div class="col-md-3">
-        <h4><i class="fa fa-bell"></i> Email &amp; SMS alerts</h4>
-        <p>Get notified before anyone else</p>
-      </div>
-      <div class="col-md-3">
-        <h4><i class="fa fa-lock"></i> SSL Testing</h4>
-        <p>Know when your website is not securely accessed</p>
-      </div>
-      <div class="col-md-3">
-        <h4><i class="fa fa-globe"></i> Multiple locations</h4>
-        <p>We track from multiple points to avoid data failure</p>
+      <div class="col-md-6"></div>
+      <div class="col-md-4">
+         <ul class="timeline">
+            <li class="timeline-inverted">
+              <div class="timeline-badge"><i class="fa fa-check"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-body">
+                  <p>Setting checks and active tracking via CLI</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge">
+                <div class="spinner">
+                  <div class="bounce1"></div>
+                  <div class="bounce2"></div>
+                  <div class="bounce3"></div>
+                </div>
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-body">
+                  <p>Setting checks and active tracking via CLI</p>
+                  <p class="pull-right">
+                    <i class="fa fa-envelope"></i>
+                  </p>
+                </div>
+              </div>
+            </li>
+            
+          </ul>
       </div>
     </div>
   </div>
 </div>
--->
+
 
 <?php include 'footer.php';?>
