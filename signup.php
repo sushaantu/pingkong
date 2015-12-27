@@ -24,7 +24,7 @@
 
 		<div class="row">
 			<div class="col-md-5 col-md-offset-1">
-				<p>We aim to make Ping Kong a userful and sustainable service that our users can rely on. So we are limiting signups to small a set of users we call Angel users. You can read more about Angel users on our blog.</p>
+				<p>We aim to make Ping Kong a userful and sustainable service that our users can rely on. So we are limiting signups to a small set of users we call Angel users. You can read more about Angel users on our <a href="">blog</a>.</p>
 				<br>
 				<p>In essence, our Angel users get:</p>
 				<ul>
