@@ -106,17 +106,19 @@
             <li class="timeline-inverted">
               <div class="timeline-badge">
                 <div class="spinner">
-                  <div class="bounce1"></div>
-                  <div class="bounce2"></div>
-                  <div class="bounce3"></div>
+                  <div class="spinner1"></div>
+                  <div class="spinner2"></div>
+                  <div class="spinner3"></div>
                 </div>
               </div>
               <div class="timeline-panel">
                 <div class="timeline-body">
                   <p>Setting checks and active tracking via CLI</p>
-                  <p class="pull-right">
-                    <i class="fa fa-envelope"></i>
-                  </p>
+                  <i class="fa fa-envelope milestone-email-trigger"></i>
+                  <span class="milestone-form">
+                    <input type="email" class="form-control input-sm" placeholder="Email">
+                    <span id="helpBlock" class="help-block">Email me when this feature is ready</span>
+                  </span>
                 </div>
               </div>
             </li>

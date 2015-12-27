@@ -3,14 +3,14 @@ $('#myTabs a').click(function (e) {
   $(this).tab('show')
 })
 
-/* activate sidebar */
+/* activate sidebar on docs page */
 $('#sidebar').affix({
   offset: {
     top: 135
   }
 });
 
-/* activate scrollspy menu */
+/* activate scrollspy menu on docs page */
 var $body   = $(document.body);
 var navHeight = $('#sidebar.nav').outerHeight(true) + 0;
 
@@ -19,7 +19,7 @@ $body.scrollspy({
 	offset: navHeight
 });
 
-/* smooth scrolling sections */
+/* smooth scrolling sections on docs page */
 $('#sidebar.nav li a[href*=#]:not([href=#])').click(function() {
   if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
     var target = $(this.hash);
@@ -33,6 +33,7 @@ $('#sidebar.nav li a[href*=#]:not([href=#])').click(function() {
   }
 });
 
+/* For the terminal */
 var bounce = new Bounce();
 bounce
 .scale({
@@ -46,19 +47,10 @@ bounce.applyTo($(".terminal")).then(function() {
   console.log("Animation Complete"); 
 });
 
-var bounce2 = new Bounce();
-bounce2
-.scale({
-    from: { x: 1, y: 1 },
-    to: { x: 0.1, y: 2.3 },
-    easing: "sway",
-    delay: 3000,
-    stiffness: 2
-  })
-
-bounce2.applyTo($(".label")).then(function() { 
-  console.log("Label Animation Complete"); 
+/* Milestone email */
+$('.milestone-email-trigger').on('click', function() {
+  $(this).toggleClass('fa-envelope');
+  $(this).toggleClass('fa-chevron-circle-right');
+  $('.milestone-form').toggle();
+  console.log("Something");
 });
-
-
-
