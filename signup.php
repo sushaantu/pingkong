@@ -15,7 +15,7 @@
 
 		<div class="row">
       <h1 class="text-center">Sign up as an Angel user!</h1>
-      <p class="lead text-center">You can become our angel user for the price of $5 per month</p>
+      <p class="lead text-center">Become our Angel user for just $5 per month</p>
     </div>
 
     <br>
