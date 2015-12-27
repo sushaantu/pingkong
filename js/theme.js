@@ -59,3 +59,6 @@ bounce2
 bounce2.applyTo($(".label")).then(function() { 
   console.log("Label Animation Complete"); 
 });
+
+
+

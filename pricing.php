@@ -11,7 +11,8 @@
   <div class="container">
 
     <div class="row">
-      <h1 class="text-center">Pricing!</h1>
+      <h1 class="text-center">Pricing</h1>
+      <p class="lead text-center">We are currently in beta and only available to our angel users.</p>
     </div>
 
   </div> <!-- /container -->
