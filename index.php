@@ -115,10 +115,13 @@
                 <div class="timeline-body">
                   <p>Setting checks and active tracking via CLI</p>
                   <i class="fa fa-envelope milestone-email-trigger"></i>
-                  <span class="milestone-form">
-                    <input type="email" class="form-control input-sm" placeholder="Email">
-                    <span id="helpBlock" class="help-block">Email me when this feature is ready</span>
-                  </span>
+                  <form class="form-inline milestone-form-container">
+                    <div class="form-group milestone-form">
+                      <input type="email" class="form-control input-sm" placeholder="Email">
+                    </div>
+                    <button type="submit" class="btn btn-default btn-sm">Go</button>
+                    <span id="helpBlock" class="help-block">Email me when this milestone is reached</span>
+                  </form>
                 </div>
               </div>
             </li>

@@ -49,8 +49,7 @@ bounce.applyTo($(".terminal")).then(function() {
 
 /* Milestone email */
 $('.milestone-email-trigger').on('click', function() {
-  $(this).toggleClass('fa-envelope');
-  $(this).toggleClass('fa-chevron-circle-right');
-  $('.milestone-form').toggle();
+  $(this).removeClass('fa-envelope');
+  $('.milestone-form-container').toggle();
   console.log("Something");
 });
