@@ -18,7 +18,6 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/bounce.js"></script>
   <script src="js/jspark.js"></script>
-  <script src="js/retina.min.js"></script>
   <script src="js/theme.js"></script>
   </body>
 </html>

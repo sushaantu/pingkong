@@ -8,8 +8,9 @@
 }
 
 .navbar-brand span {
-  background: url(../img/logo.png) no-repeat;
+  background: url(../img/logo.svg) no-repeat;
   display: inline-block;
+  background-size: 106px 43px;
   width: 106px;
   height: 43px;
 }
@@ -79,7 +80,7 @@
 
     <div class="row">
       <div class="col-md-4 col-md-offset-4">
-        <a href="/signup" class="btn btn-lg btn-primary btn-block">Try now!</a>
+        <a href="/signup" class="btn btn-lg btn-primary btn-block">Try now</a>
         <h6 class="text-muted text-center hidden"></h6>
       </div>
     </div>
@@ -92,14 +93,18 @@
 <div id="timeline-container">
   <div class="container">
     <div class="row">
-      <div class="col-md-6"></div>
+      <div class="col-md-4 col-md-offset-2">
+        <h3>Hello!</h3>
+        <p>We are working hard on creating the best website monitoring service for sysadmins. </p>
+        <p>We have reached certain milestones but there are still lot more to go. Click on the email icon against each unmet milestone to be notified when we reach that milestone.</p>
+      </div>
       <div class="col-md-4">
          <ul class="timeline">
             <li class="timeline-inverted">
               <div class="timeline-badge"><i class="fa fa-check"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-body">
-                  <p>Setting checks and active tracking via CLI</p>
+                  <p>Launch pingkong.io for Angel users</p>
                 </div>
               </div>
             </li>
@@ -113,7 +118,7 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-body">
-                  <p>Setting checks and active tracking via CLI</p>
+                  <p>Launch for everyone</p>
                   <i class="fa fa-envelope milestone-email-trigger"></i>
                   <form class="form-inline milestone-form-container">
                     <div class="form-group milestone-form">

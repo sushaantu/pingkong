@@ -21,13 +21,6 @@ body {
 	color: #111;
 }
 
-.navbar-brand span {
-  background: url(../img/logo-dark.png) no-repeat;
-  display: inline-block;
-  width: 106px;
-  height: 43px;
-}
-
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #5D6D81;
 }
