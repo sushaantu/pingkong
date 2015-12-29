@@ -79,7 +79,7 @@
     <br>
 
     <div class="row">
-      <div class="col-md-4 col-md-offset-4">
+      <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 ">
         <a href="/signup" class="btn btn-lg btn-primary btn-block">Try now</a>
         <h6 class="text-muted text-center hidden"></h6>
       </div>
@@ -93,12 +93,12 @@
 <div id="timeline-container">
   <div class="container">
     <div class="row">
-      <div class="col-md-4 col-md-offset-2">
+      <div class="col-sm-6 col-xs-6 col-md-4 col-md-offset-2">
         <h3>Hello!</h3>
         <p>We are working hard on creating the best website monitoring service for sysadmins. </p>
         <p>We have reached certain milestones but there are still lot more to go. Click on the email icon against each unmet milestone to be notified via email when we get there.</p>
       </div>
-      <div class="col-md-4">
+      <div class="col-xs-6 col-md-4 ">
          <ul class="timeline">
             <li class="timeline-inverted">
               <div class="timeline-badge"><i class="fa fa-check"></i></div>

@@ -787,7 +787,7 @@ footer {
   background-size: 36px;
 }
 #timeline-container {
-  padding: 50px;
+  padding: 50px 0;
 }
 .timeline {
   list-style: none;
