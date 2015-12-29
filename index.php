@@ -43,7 +43,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="text-center">
-          <h1 class="whatwedo animated fadeIn">Website monitoring <em class="for">for</em> sysadmins</h1>
+          <h1 class="whatwedo animated fadeIn">Uptime monitoring <em class="for">for</em> sysadmins</h1>
         </div>
       </div>
     </div>
@@ -95,7 +95,7 @@
     <div class="row">
       <div class="col-sm-6 col-xs-6 col-md-4 col-md-offset-2">
         <h3>Hello!</h3>
-        <p>We are working hard on creating the best website monitoring service for sysadmins. </p>
+        <p>We are working hard on creating the best uptime monitoring service for sysadmins. </p>
         <p>We have reached certain milestones but there are still lot more to go. Click on the email icon against each unmet milestone to be notified via email when we get there.</p>
       </div>
       <div class="col-xs-6 col-md-4 ">
