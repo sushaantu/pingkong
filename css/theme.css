@@ -944,3 +944,6 @@ footer {
 .timeline-body button[type="submit"] {
   width: 25%;
 }
+.timeline-badge .fa.fa-check {
+  line-height: 21px;
+}
