@@ -104,7 +104,7 @@
               <div class="timeline-badge"><i class="fa fa-check"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-body">
-                  <p>Launch pingkong.io for Angel users</p>
+                  <p><a href="">Launch Ping Kong for Angel users</a></p>
                 </div>
               </div>
             </li>
