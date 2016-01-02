@@ -12,8 +12,28 @@
 
 <div class="minimal">
 	<div class="container">
+
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3">
+      <h1 class="text-center">Sign up as an Angel user!</h1>
+      <p class="lead text-center">Become our Angel user for just $5 per month</p>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+		<div class="row">
+			<div class="col-md-5 col-md-offset-1">
+				<p>We aim to make Ping Kong a userful and sustainable service that our users can rely on. So we are limiting signups to a small set of users we call Angel users. You can read more about Angel users on our <a href="">blog</a>.</p>
+				<br>
+				<p>In essence, our Angel users get:</p>
+				<ul>
+					<li>cheaper grandfathered plans</li>
+					<li>priority access to new features</li>
+					<li>direct support from the developers</li>
+				</ul>
+			</div>
+			<div class="col-md-5">
 				<form class="form-signin">
 					<button type="button" class="btn btn-lg btn-default btn-block btn-github">Register with Github</button>
 					<hr>
