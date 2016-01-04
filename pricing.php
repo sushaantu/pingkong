@@ -30,6 +30,12 @@
 	  text-shadow: none;
   }
 
+  .pricing-card .btn-default:active:focus, .pricing-card .btn-default:active:hover {
+  	color: #fff;
+	  background-color: transparent;
+	  border-color: #fff;
+  }
+
   .free {
   	background: #E91E63;
   }
