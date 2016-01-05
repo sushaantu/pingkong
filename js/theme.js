@@ -33,6 +33,18 @@ $('#sidebar.nav li a[href*=#]:not([href=#])').click(function() {
   }
 });
 
+/* For switching forms on Signup */
+$('a#changeToFree').on( 'click', function() {
+  $('#angel-signup-form').hide();
+  $('#free-signup-form').show();
+});
+
+$('a#changeToAngel').on( 'click', function() {
+  $('#angel-signup-form').show();
+  $('#free-signup-form').hide();
+});
+
+
 /* For the terminal */
 var bounce = new Bounce();
 bounce
@@ -72,3 +84,5 @@ $(function(){
     
   });
 });
+
+
