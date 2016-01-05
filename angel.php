@@ -1,8 +1,15 @@
 <?php include 'header.php';?>
 
 <style>
-	footer, .navbar-right {
-		display: none;
+	.navbar-right {
+    display: none;
+  }
+  .footer {
+	  position: absolute;
+	  bottom: 0;
+	  width: 100%;
+	  /* Set the fixed height of the footer here */
+	  height: 60px;
 	}
 	ul {
 		padding-left: 30px;
