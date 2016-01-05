@@ -1,9 +1,16 @@
 <?php include 'header.php';?>
 
 <style>
-  footer, .navbar-right {
+  .navbar-right {
     display: none;
   }
+  .footer {
+	  position: absolute;
+	  bottom: 0;
+	  width: 100%;
+	  /* Set the fixed height of the footer here */
+	  height: 60px;
+	}
 </style>
 
 
@@ -16,9 +23,11 @@
     </div>
 
     <div class="row">
-    	<div class="col-md-3">
+    	<div class="col-sm-4 col-xs-6">
 	    	<div class="text-center pricing-card free">
-	    		<h4>FREE</h4>
+	    		<div class="plan">
+	    			<h4>Free</h4>
+	    		</div>
 	    		<h1>0</h1>
 	    		<p>5 Checks</p>
 	    		<p>Multiple Zones</p>
@@ -30,10 +39,13 @@
 	    	</div>
     	</div>
 
-    	<div class="col-md-3">
-    		<div class="text-center pricing-card basic">
-	    		<h4>BASIC</h4>
-	    		<h1>8</h1>
+    	<div class="col-sm-4 col-xs-6">
+    		<div class="text-center pricing-card angel">
+	    		<div class="plan">
+	    			<h4>Angel</h4>
+	    			<h6>100 slots left</h6>
+	    		</div>
+	    		<h1>5</h1>
 	    		<p>15 Checks</p>
 	    		<p>Multiple Zones</p>
 	    		<p>1 minute interval</p>
@@ -44,33 +56,15 @@
 	    	</div>
     	</div>
 
-    	<div class="col-md-3">
-    		<div class="text-center pricing-card plus">
-	    		<h4>PLUS</h4>
-	    		<h1>60</h1>
-	    		<p>50 Checks</p>
-	    		<p>Multiple Zones</p>
-	    		<p>Less than 1 minute interval</p>
-	    		<p>6 months</p>
-	    		<p>Unlimited</p>
-	    		<p>Email, SMS, Phone</p>
-	    		<a class="btn btn-default">Sign up</a>
+    	<div class="col-sm-4 col-xs-12">
+    		<div class="text-center general">
+	    		<p>We are currently working with limited <a href="">Angel users</a> to make Ping Kong the best uptime monitoring service for sysadmins.</p>
+	    		<br>
+	    		<p>We will soon launch more plans but if you want to get in while it's still fresh &amp; cheap, you should sign up as our <a href="/angel">Angel user</a>.</p>
 	    	</div>
     	</div>
 
-    	<div class="col-md-3">
-    		<div class="text-center pricing-card enterprise">
-	    		<h4>ENTERPRISE</h4>
-	    		<h1>250</h1>
-	    		<p>Unlimited Checks</p>
-	    		<p>Multiple Zones</p>
-	    		<p>Configurable interval</p>
-	    		<p>Unlimited</p>
-	    		<p>Unlimited</p>
-	    		<p>Email, SMS, Phone</p>
-	    		<a class="btn btn-default">Contact</a>
-	    	</div>
-    	</div>
+    	
     </div>
 
   </div> <!-- /container -->

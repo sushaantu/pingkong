@@ -537,6 +537,10 @@ footer {
   overflow: hidden;
 }
 
+footer a {
+  color: #5D6D81;
+}
+
 .form-signin {
   max-width: 400px;
   padding: 15px;
@@ -784,14 +788,43 @@ footer {
 }
 
 .pricing .pricing-card {
-  border-radius: 4px;
+  border-radius: 8px;
   color: #fff;
   padding: 15px 0 20px 0; 
+  min-height: 100px;
+}
+
+.pricing-card .plan {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 15px;
+}
+
+.plan h6 {
+  margin: 0;
+  position: absolute;
+  left: 128px;
+  top: 64px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+@media (max-width: 991px) { 
+  .plan h6 {
+    left: 92px;
+  }
+}
+
+@media (max-width: 767px) { 
+  .plan h6 {
+    left: 40%;
+  }
+}
+
+.pricing-card h4 {
+  text-transform: uppercase;
 }
 
 .pricing-card h1 {
   font-size: 75px;
-  padding: 15px;
 }
 
 .pricing-card h1:before {
@@ -817,6 +850,17 @@ footer {
 
 .free {
   background: #E91E63;
+}
+
+.angel {
+  background: #9C27B0;
+}
+
+.general {
+  background: transparent;
+  padding-top: 50px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .basic {
