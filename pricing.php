@@ -52,15 +52,15 @@
 	    		<p>30 days</p>
 	    		<p>3 user</p>
 	    		<p>Email, SMS</p>
-	    		<a class="btn btn-default" href="/angel">Sign up</a>
+	    		<a class="btn btn-default" href="/signup">Sign up</a>
 	    	</div>
     	</div>
 
     	<div class="col-sm-4 col-xs-12">
     		<div class="text-center general">
-	    		<p>We are currently working with limited <a href="/angel">Angel users</a> to make Ping Kong the best uptime monitoring service for sysadmins.</p>
+	    		<p>We are currently working with limited <a href="">Angel users</a> to make Ping Kong the best uptime monitoring service for sysadmins.</p>
 	    		<br>
-	    		<p>We will soon launch more plans but if you want to get in while it's still fresh &amp; cheap, you should sign up as our <a href="/angel">Angel user</a>.</p>
+	    		<p>We will soon launch more plans but in the meanwhile you should signup as our Angel user with the introductory pricing of $5 per month.</p>
 	    	</div>
     	</div>
 

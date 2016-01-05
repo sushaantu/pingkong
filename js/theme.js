@@ -53,3 +53,22 @@ $('.milestone-email-trigger').on('click', function() {
   $('.milestone-form-container').toggle();
   console.log("Something");
 });
+
+
+
+$(function(){
+  var elem;
+  elem = $('#typed');
+  $("#typed").typed({
+    strings: ["pingkong monitor myshop.com"],
+    typeSpeed: 40,
+    contentType: 'text',
+    cursorChar: "▌",
+    onStringTyped: function() {
+      return elem.siblings('.typed-cursor').css({ display: "block" });;
+      ('.typed-cursor').hide();
+      ('#first-output').show();
+    }
+    
+  });
+});

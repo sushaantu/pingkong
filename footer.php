@@ -21,6 +21,7 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/bounce.js"></script>
   <script src="js/jspark.js"></script>
+  <script src="js/typed.min.js"></script>
   <script src="js/theme.js"></script>
   </body>
 </html>

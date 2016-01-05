@@ -31,9 +31,6 @@
 			  </form>
 			</div>
 		</div>
-
-	 
-
 	</div> <!-- /container -->
 </div>
 
