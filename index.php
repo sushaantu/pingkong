@@ -69,7 +69,7 @@
               <p>IP Address: 192.168.10.19</p>
               <p>Loading time: 235 ms</p>
               <p>Last checked: Fri Oct 16 14:50:27 2015</p>
-              <p>▁▂▃▅▂▇</p>
+              <p>▃▇▁▂▄▃▂▂▅▁▂█▃▂▃▃▃▁▂▂▃▂▅▁▁▁</p>
             </div>
           </main>
           
