@@ -990,6 +990,13 @@ footer a {
   position: relative;
   vertical-align: text-top;
 }
+.pricing-card.angel h1:after {
+  content: "monthly";
+  font-size: 10px;
+  position: absolute;
+  color: rgba(255, 255, 255, 0.57);
+  top: 155px;
+}
 .pricing-card .btn-default {
   background: transparent;
   color: #fff;

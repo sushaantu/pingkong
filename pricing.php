@@ -1,9 +1,6 @@
 <?php include 'header.php';?>
 
 <style>
-  .navbar-right {
-    display: none;
-  }
   .footer {
 	  position: absolute;
 	  bottom: 0;
