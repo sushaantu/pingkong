@@ -3,8 +3,6 @@
 <style>
 #gradient {
   background: #145791;
-  background: -webkit-radial-gradient(100% 100%, ellipse farthest-side, #56C9CE 10%, #145791 100%);
-  background: radial-gradient(ellipse farthest-side at 100% 100%, #56C9CE 10%, #145791 100%);
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(23, 33, 158, 0.75)), color-stop(100%, rgba(17, 2, 49, 0))), -webkit-gradient(linear, 0% 100%, 100% 0%, color-stop(0%, rgba(105, 19, 121, 0.78)), color-stop(12.5%, #f67cb7), color-stop(25%, #f99797), color-stop(37.5%, #f1b79f), color-stop(50%, #e1a7b7), color-stop(62.5%, #c3bcb0), color-stop(75%, #8aaab2), color-stop(87.5%, #1693ca), color-stop(100%, #253eb6));
 }
 
@@ -83,7 +81,7 @@
 
     <div class="row">
       <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 ">
-        <a href="/signup" class="btn btn-lg btn-primary btn-block">Try now</a>
+        <a href="/pricing" class="btn btn-lg btn-primary btn-block">Try now</a>
         <h6 class="text-muted text-center hidden"></h6>
       </div>
     </div>
