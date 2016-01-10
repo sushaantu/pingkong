@@ -77,9 +77,13 @@ $(function(){
     contentType: 'text',
     cursorChar: "▌",
     onStringTyped: function() {
-      return elem.siblings('.typed-cursor').css({ display: "block" });;
-      ('.typed-cursor').hide();
-      ('#first-output').show();
+      elem.siblings('.typed-cursor').css({ display: "block" });;
+
+      window.setTimeout(function() {
+        $('.typed-cursor').hide();
+        $('#first-output').show();  
+      }, 1000);
+      
     }
     
   });
