@@ -3,14 +3,8 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-.wf-loading h1,
-.wf-loading h2,
-.wf-loading h3,
-.wf-loading h4,
-.wf-loading h5,
-.wf-loading h6,
-.wf-loading p,
-.wf-loading li {
+.wf-loading input,
+.wf-loading span {
   visibility: hidden;
 }
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */

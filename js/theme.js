@@ -15,8 +15,8 @@ var $body   = $(document.body);
 var navHeight = $('#sidebar.nav').outerHeight(true) + 0;
 
 $body.scrollspy({
-	target: '#leftCol',
-	offset: navHeight
+  target: '#leftCol',
+  offset: navHeight
 });
 
 /* smooth scrolling sections on docs page */
@@ -72,8 +72,9 @@ $(function(){
   var elem;
   elem = $('#typed');
   $("#typed").typed({
-    strings: ["pingkong monitor myshop.com"],
-    typeSpeed: 40,
+    strings: ["pingkong monitor ^750 myshop.com"],
+    typeSpeed: 80,
+    startDelay: 3000,
     contentType: 'text',
     cursorChar: "▌",
     onStringTyped: function() {

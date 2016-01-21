@@ -34,6 +34,7 @@
 #gradient .text-muted {
   color: rgba(255, 255, 255, 1);
 }
+
 </style>
 
 
@@ -64,10 +65,10 @@
             <p>$ <span id="typed"></span></p>
             <div id="first-output">
               <p>Status: Running</p>
-              <p>IP Address: 192.168.10.19</p>
+              <p>IP Address: 80.18.45.97</p>
               <p>Loading time: 235 ms</p>
               <p>Last checked: Fri Oct 16 14:50:27 2015</p>
-              <p>▃▇▁▂▄▃▂▂▅▁▂█▃▂▃▃▃▁▂▂▃▂▅▁▁▁</p>
+              <p class="sparkline">▃▇▁▂▄▃▂▂▅▁▂█▃▂▃▃▃▁▂▂▃▂▅▁</p>
             </div>
           </main>
           
@@ -80,63 +81,29 @@
     <br>
 
     <div class="row">
-      <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 ">
-        <a href="/pricing" class="btn btn-lg btn-primary btn-block">Try now</a>
-        <h6 class="text-muted text-center hidden"></h6>
+      <div class="text-center">
+        <!-- Begin MailChimp Signup Form -->
+        <div id="mc_embed_signup" class="mailchimp">
+          <form action="//uxready.us2.list-manage.com/subscribe/post?u=8dd685c047c070f6df167df83&amp;id=50a05296de" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate> 
+            <div class="form-group">
+              <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Enter email">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn__bottom--border mailchimp__btn" data-style="shrink" data-horizontal>        
+            </div>
+
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div class="" style="position: absolute; left: -5000px;"><input type="text" name="b_410ed4e009d15301d90f6492b_753384883a" value=""></div>                          
+          </form>
+          <span class="message">Subscribe to get priority access</span>  
+        </div><!--End mc_embed_signup-->    
       </div>
     </div>
 
   </div>  
 </div>
-</div><!-- end of #gradient -->
 
-
-<div id="timeline-container">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6 col-xs-6 col-md-4 col-md-offset-2">
-        <h3>Hello!</h3>
-        <p>We are working hard on creating the best uptime monitoring service for sysadmins. </p>
-        <p>We have reached certain milestones but there are still lot more to go. Click on the email icon against each unmet milestone to be notified via email when we get there.</p>
-      </div>
-      <div class="col-xs-6 col-md-4 ">
-         <ul class="timeline">
-            <li class="timeline-inverted">
-              <div class="timeline-badge"><i class="fa fa-check"></i></div>
-              <div class="timeline-panel">
-                <div class="timeline-body">
-                  <p><a href="">Launch Ping Kong for Angel users</a></p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-badge">
-                <div class="spinner">
-                  <div class="spinner1"></div>
-                  <div class="spinner2"></div>
-                  <div class="spinner3"></div>
-                </div>
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-body">
-                  <p>Launch for everyone</p>
-                  <i class="fa fa-envelope milestone-email-trigger"></i>
-                  <form class="form-inline milestone-form-container">
-                    <div class="form-group milestone-form">
-                      <input type="email" class="form-control input-sm" placeholder="Email">
-                    </div>
-                    <button type="submit" class="btn btn-default btn-sm">Go</button>
-                    <span id="helpBlock" class="help-block">Email me when this milestone is reached</span>
-                  </form>
-                </div>
-              </div>
-            </li>
-            
-          </ul>
-      </div>
-    </div>
-  </div>
-</div>
 
 
 <?php include 'footer.php';?>
