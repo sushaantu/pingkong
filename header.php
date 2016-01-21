@@ -22,7 +22,7 @@
     <meta property="og:url" content="https://pingkong.io"/>
     <meta property="og:title" content="Ping Kong"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:image:secure_url" content="https://pingkong.io/img/facebook.png?v=1"/>
+    <meta property="og:image" content="https://pingkong.io/img/facebook.png?v=1"/>
     <meta property="og:site_name" content="Ping Kong"/>
     <meta property="og:description" content="Ping Kong is an uptime monitoring service for sysadmins"/>
 
