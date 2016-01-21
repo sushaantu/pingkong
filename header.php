@@ -9,6 +9,23 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico?1">
     <link rel="icon" href="img/favicon.ico?1" type="image/x-icon">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="Ping Kong is an uptime monitoring service for sysadmins">
+    <meta name="twitter:site" content="@pingkongio">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:creator" content="@pingkongio">
+    <meta name="twitter:image:src" content="">
+    <meta name="twitter:player" content="">
+    
+    <!-- Open Graph General (Facebook & Pinterest) -->
+    <meta property="og:url" content="https://pingkong.io"/>
+    <meta property="og:title" content="Ping Kong"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image:secure_url" content="https://pingkong.io/img/facebook.png?v=1"/>
+    <meta property="og:site_name" content="Ping Kong"/>
+    <meta property="og:description" content="Ping Kong is an uptime monitoring service for sysadmins"/>
+
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/theme.css" rel="stylesheet">
