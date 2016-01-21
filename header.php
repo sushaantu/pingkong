@@ -12,11 +12,11 @@
     <!-- Twitter -->
     <meta name="twitter:card" content="Ping Kong is an uptime monitoring service for sysadmins">
     <meta name="twitter:site" content="@pingkongio">
-    <meta name="twitter:title" content="">
-    <meta name="twitter:description" content="">
+    <meta name="twitter:title" content="Ping Kong - Uptime monitoring for sysadmins">
+    <meta name="twitter:description" content="Ping kong lets you monitor uptime of your website in realtime -right from your terminal">
     <meta name="twitter:creator" content="@pingkongio">
-    <meta name="twitter:image:src" content="">
-    <meta name="twitter:player" content="">
+    <meta name="twitter:image:src" content="https://pingkong.io/img/facebook.png?v=1">
+    <meta name="twitter:domain" content="https://pingkong.io/">
     
     <!-- Open Graph General (Facebook & Pinterest) -->
     <meta property="og:url" content="https://pingkong.io"/>
@@ -25,6 +25,7 @@
     <meta property="og:image" content="https://pingkong.io/img/facebook.png?v=1"/>
     <meta property="og:site_name" content="Ping Kong"/>
     <meta property="og:description" content="Ping Kong is an uptime monitoring service for sysadmins"/>
+    <meta property="fb:app_id" content="685152264921531"/>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
