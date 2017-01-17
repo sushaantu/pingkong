@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Ping Kong</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico?1">
+    <link rel="icon" href="img/favicon.ico?1" type="image/x-icon">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="Ping Kong is an uptime monitoring service for sysadmins">
+    <meta name="twitter:site" content="@pingkongio">
+    <meta name="twitter:title" content="Ping Kong - Uptime monitoring for sysadmins">
+    <meta name="twitter:description" content="Ping kong lets you monitor uptime of your website in realtime -right from your terminal">
+    <meta name="twitter:creator" content="@pingkongio">
+    <meta name="twitter:image:src" content="https://pingkong.io/img/facebook.png?v=1">
+    <meta name="twitter:domain" content="https://pingkong.io/">
+    
+    <!-- Open Graph General (Facebook & Pinterest) -->
+    <meta property="og:url" content="https://pingkong.io"/>
+    <meta property="og:title" content="Ping Kong"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://pingkong.io/img/facebook.png?v=1"/>
+    <meta property="og:site_name" content="Ping Kong"/>
+    <meta property="og:description" content="Ping Kong is an uptime monitoring service for sysadmins"/>
+    <meta property="fb:app_id" content="685152264921531"/>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+    <style>
+      #gradient {
+        background: #145791;
+        background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(23, 33, 158, 0.75)), color-stop(100%, rgba(17, 2, 49, 0))), -webkit-gradient(linear, 0% 100%, 100% 0%, color-stop(0%, rgba(105, 19, 121, 0.78)), color-stop(12.5%, #f67cb7), color-stop(25%, #f99797), color-stop(37.5%, #f1b79f), color-stop(50%, #e1a7b7), color-stop(62.5%, #c3bcb0), color-stop(75%, #8aaab2), color-stop(87.5%, #1693ca), color-stop(100%, #253eb6));
+      }
+
+      .navbar-brand span {
+        background: url(img/logo.svg) no-repeat;
+        display: inline-block;
+        background-size: 106px 43px;
+        width: 106px;
+        height: 43px;
+      }
+
+      .navbar-default {
+        background: transparent;
+      }
+
+      .navbar-default .navbar-nav > li > a {
+        color: #fff;
+      }
+
+      .navbar-default .navbar-nav > li > a:hover {
+        color: #fff;
+      }
+
+      .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 50px;
+      }
+
+      #gradient .text-muted {
+        color: rgba(255, 255, 255, 1);
+      }
+
+    </style>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" >
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+    var html = document.getElementsByTagName('html')[0];
+    html.className += '  wf-loading';
+    setTimeout(function() {
+      html.className = html.className.replace(' wf-loading', '');
+    }, 5000);
+
+    WebFontConfig = { fontdeck: { id: '46804' } };
+
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = '//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })();
+    </script>
+  </head>
+  <body id="gradient">
+  
+
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/" alt="Ping Kong logo"><span></span></a>
+        </div>
+        
+      </div>
+    </nav>
+
+
+    <div id="hanuman">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-center">
+              <h1 class="whatwedo animated fadeIn">Uptime monitoring <em class="for">for</em> sysadmins</h1>
+            </div>
+          </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <div class="terminal animation-target">
+              <div class="terminal-header">
+                <div class="t-buttons">
+                  <button class="t-close"></button>
+                  <button class="t-minimize"></button>
+                  <button class="t-maximize"></button>
+                </div>
+              </div>
+              <main class="prompt">
+                <p>$ <span id="typed"></span></p>
+                <div id="first-output">
+                  <p>Status: Running</p>
+                  <p>IP Address: 80.18.45.97</p>
+                  <p>Loading time: 235 ms</p>
+                  <p>Last checked: Fri Oct 16 14:50:27 2015</p>
+                  <p class="sparkline">▃▇▁▂▄▃▂▂▅▁▂█▃▂▃▃▃▁▂▂▃▂▅▁</p>
+                </div>
+              </main>
+              
+            </div>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+        
+        <br>
+        <br>
+
+        <div class="row">
+          <div class="text-center">
+            <!-- Begin MailChimp Signup Form -->
+            <div id="mc_embed_signup" class="mailchimp">
+              <form action="//uxready.us2.list-manage.com/subscribe/post?u=8dd685c047c070f6df167df83&amp;id=50a05296de" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate> 
+                <div class="form-group">
+                  <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Enter email">
+                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn__bottom--border mailchimp__btn" data-style="shrink" data-horizontal>        
+                </div>
+
+                <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div class="" style="position: absolute; left: -5000px;"><input type="text" name="b_410ed4e009d15301d90f6492b_753384883a" value=""></div>                          
+              </form>
+              <span class="message">Subscribe to get priority access</span>  
+            </div><!--End mc_embed_signup-->    
+          </div>
+        </div>
+
+      </div>  
+    </div>
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bounce.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/theme.js"></script>
+  </body>
+</html>
+
